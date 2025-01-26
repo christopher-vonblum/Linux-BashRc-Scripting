@@ -13,8 +13,7 @@ foreach (string filePath in scripts)
 
     bashrcDefinitions +=
     "\n" + fileNameWithoutExtension + "() {\n"
-    + "    cd ~/bin/scripts\n" 
-    + "    ./" + fileName + "\n}\n";
+    + "    ~/bin/scripts/" + fileName + "\n}\n";
 }
 
 File.WriteAllText("/home/anon/bin/bashrc-definitions", bashrcDefinitions);
