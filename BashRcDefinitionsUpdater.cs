@@ -1,3 +1,5 @@
+#!/home/anon/bin/DotnetScriptRunner/DotnetScriptRunner
+
 var scripts = Directory.GetFiles(args[0]);
 
 Console.WriteLine("Scripts dir: " + scripts);

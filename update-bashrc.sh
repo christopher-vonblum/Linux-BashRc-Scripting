@@ -1,3 +1,3 @@
 #!/bin/bash -v
-dotnet DotnetScriptRunner/DotnetScriptRunner.dll BashRcDefinitionsUpdater.cs "$PWD/scripts"
+./BashRcDefinitionsUpdater.cs "$PWD/scripts"
 source ~/.bashrc
