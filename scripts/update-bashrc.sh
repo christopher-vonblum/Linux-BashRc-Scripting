@@ -1,3 +1,2 @@
 #!/bin/sh
-cd ..
-./update-bashrc.sh
+./../BashRcDefinitionsUpdater.cs

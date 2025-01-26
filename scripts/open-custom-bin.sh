@@ -1,2 +1,2 @@
 #!/bin/sh
-nautilus ~/bin/scripts
+cd ~/bin/scripts
