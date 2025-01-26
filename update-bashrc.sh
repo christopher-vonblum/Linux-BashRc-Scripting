@@ -1,3 +1,3 @@
-#!/bin/bash -v
+#!/bin/bash
 ./BashRcDefinitionsUpdater.cs "$PWD/scripts"
 source ~/.bashrc
