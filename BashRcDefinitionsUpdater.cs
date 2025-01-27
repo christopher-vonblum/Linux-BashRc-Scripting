@@ -1,4 +1,4 @@
-#!/home/anon/bin/DotnetScriptRunner/DotnetScriptRunner
+#!/usr/bin/cs-script
 
 string[] scripts = Directory.GetFiles("/home/anon/bin/scripts");
 
